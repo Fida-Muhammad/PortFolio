@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+#hero-section{
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.6)), url("/images/student-849825_1920.jpg");
+    height:100vh;
+    background-attachment:fixed;
+    background-position:top;
+    background-repeat:no-repeat;
+    background-position:top center;
+    background-size:cover;
+    color:#fff;
+    position:relative;
+    margin-bottom:30px;
+}
+.navbar
+{
+    opacity: 0.8;
+    background-color: #333;
+    padding:15px 40px;
+}
+#hero-section .navbar-brand{
+    text-transform:uppercase;
+    letter-spacing:1px;
+    font-weight:500;
+}
+.navbar-brand span{
+    color:red;
+    font-size:23px;
+}
+.navbar .navbar-toggler{
+   border:none;
+   outline:none;
+}
+.nav-link
+{
+    letter-spacing:1px;
+    text-transform:uppercase;
+    font-size:18px;
+    text-align:right;
+    font-weight:500;
+}
+#name-sec .name-btn{
+    background-color:transparent;
+    color:#fff;
+    text-transform:uppercase;
+    padding:8px 18px;
+    letter-spacing:1px;
+    font-size:18px;
+    border:1px solid crimson;
+    outline:none;
+}
+#name-sec .name-btn:hover{
+    background-color: crimson;
+}
+#name-sec h1{
+    animation-name:anim;
+    animation-duration:2s;
+}
+#name-sec h1 span{
+    color:crimson;
+}
+
+
+
+
+#skills
+{
+    padding:40px 0;
+  
+}
+#skills h2{
+    
+ text-transform:uppercase;
+    margin-bottom:15px;
+    letter-spacing:4px;
+   
+}
+#skills p{
+    font-size:18px;
+    font-family:sans-serif;
+    margin-bottom:50px;
+}
+.img-logo img{
+    height:60px;
+    width:60px;
+    margin-bottom:12px;
+}
+#skills .my-skills {
+    max-height: auto;
+    margin-bottom: 20px;
+    box-shadow:1px 5px 12px #333;
+    border-radius:4px;
+    color:#fff;
+    padding: 20px;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../images/business-2717066_1920.jpg');
+    background-position:center;
+    background-size:cover;
+}
+#skills .my-skills:hover .img-logo img{
+ transform: scale(1.1);   
+}
+#skills .skill-header h4{
+   
+    margin-bottom:15px;
+    letter-spacing:4px;
+    text-shadow: 2px 2px 4px #fff;
+}
+
+
+
+
+#projects{
+   
+    margin-top:10px;
+    padding-top:40px;
+    padding-bottom:50px;
+    background-color:#eee;
+}
+#projects h2{
+    text-transform:uppercase;
+    margin-bottom:15px;
+    letter-spacing:4px;
+}
+#projects p{
+    font-size:18px;
+    font-family:sans-serif;
+    margin-bottom:50px;
+    letter-spacing:2px;
+}
+#projects video{
+    width: 100%;
+    margin-bottom: 30px;
+    margin-right: 15px;
+}
+
+
+
+
+
+#about-section{
+
+    padding-bottom: 100px;
+    padding: 60px 0;
+    color: #fff;
+    height: 80%;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("/images/business-2717066_1920.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#about-section img{
+    height:280px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+#about-section h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+
+}
+#about-section h6{
+    letter-spacing: 2px;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+#about-section p{
+    font-size: 18px;
+}
+#about-section .resume-btn a{
+  text-decoration: none !important;
+  border: none !important;
+}
+#about-section .resume-btn{
+    text-decoration: none;
+    background-color:transparent;
+    color:#fff;
+    text-transform:uppercase;
+    padding:8px 18px;
+    letter-spacing:1px;
+    font-size:18px;
+    border:2px solid crimson;
+    outline:none;
+}
+#about-section .resume-btn:hover{
+    background-color: crimson;
+}
+
+
+
+
+#contact-section{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #eee;
+}
+#contact-section .row{
+    padding: 0 20px;
+}
+#contact-section .contact-info{
+    box-shadow: 2px 5px 12px #333;
+    padding:30px;
+    padding-left: 40px;
+    border-radius: 10px;
+    height: 200px;
+    transition: all .4s;
+    margin-bottom: 20px;
+}
+#contact-section .contact-info:hover{
+    box-shadow: 3px 7px 18px #333;
+    transform: scale(1.1);
+}
+.contact-info .contact-header{
+    
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.contact-info .contact-header .fa{
+    margin-left: 20px;
+    padding: 10px 10px;
+    background-color: blanchedalmond;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.contact-info .phone-par{
+    font-size: 16px; 
+    font-weight: 500;
+}
+#contact-section .contact-me{
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    letter-spacing: 4px;
+}
+.contact-info a{
+    text-decoration: none !important;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes anim{
+    0%{
+        transform:translateX(-100px);
+        opacity:0;
+    }
+    100%{
+        transform:translateX(0);
+        opacity:1;
+    }
+}
