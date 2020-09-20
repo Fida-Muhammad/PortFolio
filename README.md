@@ -1,2 +1,2 @@
 # PortFolio
-[Check Resume](http://fida-portfolio.surge.sh/)
+[Check My Website](http://fida-portfolio.surge.sh/)
